@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "<===== 1ST METHOD =====>"
+netstat -nr | grep default -C 3
+echo " "
+echo "<===== 2ND METHOD =====>"
+echo " "
+traceroute 8.8.8.8
