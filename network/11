@@ -1,0 +1,4 @@
+# plage ip privee reservees : 10, 172, 192
+nom & ip materiel qui fait le lien entre reseau local et exterieur
+nom: nat-1
+ip: 10.60.1.11
