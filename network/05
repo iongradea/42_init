@@ -1,2 +1,3 @@
 #!/bin/bash
+# host slash16.org AND cat /etc/resolv.conf
 nslookup slash16.org  
