@@ -1,0 +1,3 @@
+#!/bin/bash
+# en0 / inet addr
+ifconfig en0
