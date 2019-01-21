@@ -1,2 +1,2 @@
 #!/bin/bash
-service sshd status
+sudo service sshd status
