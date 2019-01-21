@@ -1,2 +1,2 @@
 #!/bin/bash
-ps aux | grep sshd
+ps aux | grep /usr/sbin/sshd
