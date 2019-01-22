@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo kill -9 $(ps aux | grep 'sshd: toto03@' | head -1 | awk -F' ' '{print $2}')
+sudo deluser toto03
