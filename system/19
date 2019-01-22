@@ -1,2 +1,4 @@
 #!/bin/bash
+# nom donne daemon
+# service, voir output commande
 service --status-all
