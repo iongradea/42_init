@@ -1,3 +1,4 @@
 #!/bin/bash
 ifconfig en0 | grep broadcast
 BDCST=`ifconfig en0 | grep broadcast | cut -d " " -f 6`; ping $BDCST
+arp -a
